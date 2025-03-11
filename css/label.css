@@ -1,0 +1,54 @@
+
+    /* Estilo general para los labels */
+    label {
+        display: block; /* Hace que cada label ocupe una línea completa */
+        margin-top: 10px; /* Agrega espacio superior entre los labels */
+        font-weight: bold; /* Hace que el texto del label sea negrita */
+    }
+
+    /* Estilo para los labels específicos */
+    label[for="uname"] {
+        color: #336699; /* Cambia el color del label para "Nombre usuario" */
+    }
+
+    label[for="monto"] {
+        color:#336699; /* Cambia el color del label para "Monto" */
+    }
+
+    label[for="fecha_pago"] {
+        color: #336699 /* Cambia el color del label para "Fecha de Pago" */
+    }
+
+    input {
+        width: 80%; /* Ancho del 100% para ocupar todo el ancho del contenedor */
+        padding: 10px; /* Espaciado interno para mayor legibilidad y espacio */
+        margin-bottom: 10px; /* Espaciado inferior entre campos */
+        border: 1px solid #ccc; /* Borde con color gris claro */
+        border-radius: 5px; /* Bordes redondeados */
+        font-size: 16px; /* Tsamaño de fuente */
+    }
+
+    /* Estilo específico para el campo de fecha_pago */
+    input#fecha_pago {
+        border: 1px solid #336699 /* Cambia el color del borde para el campo fecha_pago */
+    }
+
+    button {
+        padding: 10px 20px; /* Espaciado interno para mayor legibilidad y espacio */
+        background-color: #007bff; /* Color de fondo azul */
+        color: #fff; /* Color de texto blanco */
+        border: none; /* Sin borde */
+        border-radius: 5px; /* Bordes redondeados */
+        font-size: 16px; /* Tamaño de fuente */
+        cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    }
+
+    /* Estilo específico para el botón "Guardar Pago" */
+    button[type="submit"] {
+        background-color:#5e82a7/* Cambia el color de fondo para el botón "Guardar Pago" a verde */
+    }
+
+    /* Estilo específico para el botón "Cancelar" */
+    button[type="button"] {
+        background-color: #c74552; /* Cambia el color de fondo para el botón "Cancelar" a rojo */
+    }

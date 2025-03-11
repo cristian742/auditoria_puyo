@@ -1,0 +1,23 @@
+.button-container {
+    display: flex;
+    flex-direction: column; /* Organiza en columnas */
+    align-items: center; /* Centra horizontalmente */
+}
+/* Estilo para los botones */
+.button {
+    display: inline-block;
+    padding: 20px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    
+    text-align: center; /* Centra el texto horizontalmente */
+    width: 200px; /* Tamaño fijo para todos los botones */
+    cursor: pointer;
+            transition: transform 0.2s; 
+}
+.button:hover {
+    transform: translateY(-5px); /* Mueve el botón hacia arriba 5px */
+}
